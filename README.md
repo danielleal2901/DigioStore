@@ -14,7 +14,7 @@
 - MVVM-C: Foi optado essa arquitetura por se tratar de um projeto mais simples, onde as camadas dessa arquitetura foram suficientes para se ter uma boa separação de reponsabilidades, um código limpo e permitir escalabilidade.
 ### Scene:
 - Para a preparação dos dados para a View, foram utilizadas de ViewData's, camada adicional utilizada para retirar essa responsabilidade da ViewModel, que nesse caso, foi utilizada apenas para o controle das regras de negócio e fluxos da tela.
-- Para o acesso a DAO foi criada uma camada de Service, responsável por criar o Endpoint e acessar o objeto de DAO necessário.
+- Para o acesso a DAO foi criada uma camada de Service, responsável por preparar e utilizar o objeto de DAO necessário.
 - Para o autolayout foi utilizado ViewCode e UIKit.
 
 ## Testes
